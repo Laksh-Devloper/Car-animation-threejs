@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0", // Example version; this will be updated automatically when you run the install command
+    "@vitejs/plugin-react": "^3.0.0" // Include only if using React
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
